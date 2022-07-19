@@ -1,0 +1,2750 @@
+2022-07-18 03:02:28 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:02:29 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:04:34 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed because no or invalid token found in body for /
+2022-07-18 03:04:34 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed with NoTokenInBody for /
+2022-07-18 03:05:34 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:05:34 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:05:34 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed because no or invalid token found in body for /
+2022-07-18 03:05:34 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed with NoTokenInBody for /
+2022-07-18 03:08:26 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obc4imng - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Invalid '@' symbol]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-18 03:08:32 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obc4j722 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Invalid '@' symbol]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-18 03:08:38 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:08:38 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:09:21 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:09:21 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:09:41 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:09:41 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:10:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:10:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:10:30 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:10:30 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:10:36 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:10:36 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:12:22 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:12:22 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:12:46 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:12:46 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:12:54 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:12:54 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:13:59 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:13:59 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:14:55 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:14:55 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-18 03:17:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-18 03:17:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 03:02:22 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed because no or invalid token found in body for /
+2022-07-19 03:02:22 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed with NoTokenInBody for /
+2022-07-19 04:09:07 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objjjm3p - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot find any HTTP Request Header here]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 04:09:08 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objjjn12 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot find any HTTP Request Header here]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 04:09:17 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objjkb0p - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Cannot find any HTTP Request Header here]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 04:11:48 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:11:48 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:11:48 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed because no or invalid token found in body for /
+2022-07-19 04:11:48 [31mWARN [0;39m [36mplay.filters.CSRF[0;39m [35m[0;39m [CSRF] Check failed with NoTokenInBody for /
+2022-07-19 04:13:19 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:13:19 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:14:01 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:14:01 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:14:41 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:14:41 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:17:26 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:17:26 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:17:26 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objkm6io - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchFileException: /tmp/csv/Game.desktop]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.nio.file.NoSuchFileException: /tmp/csv/Game.desktop
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:243)
+	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:581)
+	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:253)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at play.api.libs.Files$TemporaryFile.copyTo(Files.scala:105)
+	at play.api.libs.Files$TemporaryFile.copyTo$(Files.scala:103)
+	at play.api.libs.Files$DefaultTemporaryFileCreator$DefaultTemporaryFile.copyTo(Files.scala:307)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:38)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:30)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 04:19:01 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objl1gmo - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchFileException: /tmp/csv/test.csv]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.nio.file.NoSuchFileException: /tmp/csv/test.csv
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:243)
+	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:581)
+	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:253)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at play.api.libs.Files$TemporaryFile.copyTo(Files.scala:105)
+	at play.api.libs.Files$TemporaryFile.copyTo$(Files.scala:103)
+	at play.api.libs.Files$DefaultTemporaryFileCreator$DefaultTemporaryFile.copyTo(Files.scala:307)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:38)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:30)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 04:19:29 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:19:29 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:20:33 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objl6mgp - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value foreach is not a member of play.api.libs.Files.TemporaryFile]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 04:29:01 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:29:01 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:29:48 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:29:48 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:31:30 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:31:30 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:32:29 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:32:29 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:42:36 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:42:36 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:42:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:42:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:43:04 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:43:04 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:43:51 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:43:51 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:44:07 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objo98a1 - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[(Array[String], controllers.CarrierRates.type) does not take parameters]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 04:44:12 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:44:12 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:47:58 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:47:58 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:47:59 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objomd75 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NumberFormatException: For input string: "weight"]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.NumberFormatException: For input string: "weight"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.parseLong(Long.java:631)
+	at scala.collection.StringOps$.toLong$extension(StringOps.scala:928)
+	at controllers.HomeController.$anonfun$upload$3(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:45)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 04:48:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:48:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:48:18 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objongdg - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[ArrayIndexOutOfBoundsException: 1]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at controllers.HomeController.$anonfun$upload$3(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:45)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 04:48:51 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 04:48:51 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 04:48:51 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7objopd19 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NumberFormatException: For input string: "weight"]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.NumberFormatException: For input string: "weight"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.parseLong(Long.java:631)
+	at scala.collection.StringOps$.toLong$extension(StringOps.scala:928)
+	at controllers.HomeController.$anonfun$upload$3(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:45)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:19:11 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:19:11 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:19:11 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn3j890 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@1f7d00c9 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@1f7d00c9 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:39)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:42)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:23:13 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:23:13 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:23:13 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn471bd - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@6812b88a (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@6812b88a (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:39)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:42)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:23:37 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:23:37 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:25:26 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:25:26 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:25:49 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:25:49 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:25:49 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn4foj6 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@295e447c (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@295e447c (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:43)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.size(IterableOnce.scala:813)
+	at scala.collection.IterableOnceOps.size$(IterableOnce.scala:808)
+	at scala.collection.AbstractIterator.size(Iterator.scala:1293)
+	at scala.collection.Iterator.length(Iterator.scala:456)
+	at scala.collection.Iterator.length$(Iterator.scala:456)
+	at scala.collection.AbstractIterator.length(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:46)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:26:29 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:26:29 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:26:29 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn4i4pm - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@31d4c2f5 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@31d4c2f5 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:43)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.size(IterableOnce.scala:813)
+	at scala.collection.IterableOnceOps.size$(IterableOnce.scala:808)
+	at scala.collection.AbstractIterator.size(Iterator.scala:1293)
+	at scala.collection.Iterator.length(Iterator.scala:456)
+	at scala.collection.Iterator.length$(Iterator.scala:456)
+	at scala.collection.AbstractIterator.length(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:46)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:27:16 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:27:16 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:27:16 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn4knil - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@30328ee3 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@30328ee3 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:43)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:47)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:28:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:28:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:28:18 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn4oahb - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@632b4c6c (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@632b4c6c (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:41)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:45)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:28:46 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:28:46 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:28:46 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn500eb - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@5d781a27 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@5d781a27 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:46)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:29:40 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:29:40 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:29:40 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn531gk - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@71a54c47 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@71a54c47 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.mutable.Growable.addAll(Growable.scala:62)
+	at scala.collection.mutable.Growable.addAll$(Growable.scala:57)
+	at scala.collection.mutable.ArrayBuilder.addAll(ArrayBuilder.scala:66)
+	at scala.collection.IterableOnceOps.toArray(IterableOnce.scala:1282)
+	at scala.collection.IterableOnceOps.toArray$(IterableOnce.scala:1276)
+	at scala.collection.AbstractIterator.toArray(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:46)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:29:58 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:29:58 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:29:58 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn542a7 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@18e8e948 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@18e8e948 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$4(HomeController.scala:42)
+	at scala.collection.ArrayOps$.map$extension(ArrayOps.scala:929)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:42)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 15:31:34 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:31:34 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:32:39 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:32:39 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:33:11 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn5f29a - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value weight is not a member of Product with java.io.Serializable]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 15:33:55 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:33:55 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:35:59 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:35:59 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:36:18 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:36:18 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:36:26 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:36:26 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:53:01 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+
+2022-07-19 15:53:01 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 15:53:02 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn84l9k - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[FileNotFoundException: ../rates.csv (No such file or directory)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.io.FileNotFoundException: ../rates.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at scala.io.Source$.fromFile(Source.scala:94)
+	at scala.io.Source$.fromFile(Source.scala:79)
+	at scala.io.Source$.fromFile(Source.scala:57)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:00:28 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:00:28 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:00:28 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obn9457n - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[FileNotFoundException: /app/rates.csv (No such file or directory)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.io.FileNotFoundException: /app/rates.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at scala.io.Source$.fromFile(Source.scala:94)
+	at scala.io.Source$.fromFile(Source.scala:79)
+	at scala.io.Source$.fromFile(Source.scala:57)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:06:51 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:06:51 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:06:51 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna00oi - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NumberFormatException: For input string: "NL"]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.NumberFormatException: For input string: "NL"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.parseLong(Long.java:631)
+	at scala.collection.StringOps$.toLong$extension(StringOps.scala:928)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:44)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:07:37 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:07:37 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:07:37 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna2gco - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@51a3b2ab (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@51a3b2ab (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:41)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:44)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:08:14 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna4ip9 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@20dbc4ff (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@20dbc4ff (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:41)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:44)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:08:17 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna4n7b - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@40b25d1f (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@40b25d1f (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:41)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:44)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:08:18 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna4oai - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@1752779f (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@1752779f (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:41)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:44)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:08:34 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:08:34 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:08:34 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obna5na5 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[MatchError: [Ljava.lang.String;@5d5b3828 (of class [Ljava.lang.String;)]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: scala.MatchError: [Ljava.lang.String;@5d5b3828 (of class [Ljava.lang.String;)
+	at controllers.HomeController.$anonfun$upload$6(HomeController.scala:42)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:45)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:32)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 16:09:56 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:09:56 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:11:41 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:11:41 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:13:00 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:13:00 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 16:13:05 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 16:13:05 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:08:22 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obnpolna - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: ?]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 18:13:04 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obo0en0e - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: ?]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 18:16:38 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:16:38 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:16:51 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:16:51 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:17:16 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obo135e9 - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[ArrayIndexOutOfBoundsException: 0]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:48)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:29)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 18:52:08 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:52:08 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:52:50 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:52:50 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:53:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:53:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:54:05 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:54:05 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:56:06 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:56:06 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 18:57:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 18:57:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:02:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:02:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:20:50 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:20:50 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:21:50 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:21:50 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:22:06 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:22:06 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:31:36 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:31:36 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:39:10 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:39:10 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:39:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:39:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:40:46 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:40:46 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:40:55 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:40:55 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:41:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:41:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:43:15 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:43:15 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:44:06 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:44:06 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:46:14 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:46:14 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:46:47 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:46:47 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:47:15 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:47:15 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:48:30 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:48:30 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:50:32 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:50:32 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:58:09 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 19:58:09 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 19:58:33 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7oboeapp6 - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Int(0)
+ required: Ordering[Double]]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 20:00:39 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:00:39 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:01:12 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:01:12 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:01:13 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7oboek1dc - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchElementException: head of empty list]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.util.NoSuchElementException: head of empty list
+	at scala.collection.immutable.Nil$.head(List.scala:662)
+	at scala.collection.immutable.Nil$.head(List.scala:661)
+	at controllers.HomeController.$anonfun$upload$8(HomeController.scala:49)
+	at controllers.HomeController.$anonfun$upload$8$adapted(HomeController.scala:47)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:47)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:29)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 20:02:09 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:02:09 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:02:21 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:02:21 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:02:21 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7oboenobn - Internal server error, for (POST) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:242)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:627)
+	at scala.None$.get(Option.scala:626)
+	at controllers.HomeController.$anonfun$upload$8(HomeController.scala:49)
+	at controllers.HomeController.$anonfun$upload$8$adapted(HomeController.scala:47)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at controllers.HomeController.$anonfun$upload$2(HomeController.scala:47)
+	at scala.Option.map(Option.scala:242)
+	at controllers.HomeController.$anonfun$upload$1(HomeController.scala:29)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:85)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:289)
+	at play.api.mvc.ActionBuilder$$anon$8.invokeBlock(Action.scala:284)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 11 common frames omitted
+2022-07-19 20:02:27 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:02:27 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:05:08 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:05:08 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:05:20 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:05:20 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:14:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:14:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:17:27 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:17:27 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:17:49 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:17:49 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:18:01 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:18:01 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:19:44 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:19:44 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:19:55 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:19:55 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:20:01 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:20:01 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:23:32 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obohi697 - Internal server error, for (POST) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: ?]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 20:23:42 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:23:42 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:23:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:23:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:24:23 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:24:23 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:29:51 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:29:51 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:46:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:46:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:47:57 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:47:57 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:48:13 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:48:13 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 20:56:13 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 20:56:13 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:03:37 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:03:37 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:09:56 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obonkhhj - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value id]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 21:10:04 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obonl38i - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[')' expected but symbol literal found.]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 21:10:12 [1;31mERROR[0;39m [36mplay.api.http.DevHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7obonlf5d - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[unclosed character literal (or use " for string literal "id")]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$8(PlayReload.scala:131)
+	at scala.Option.map(Option.scala:230)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:104)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:38)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:156)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:156)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:496)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:57)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:63)
+	at play.runsupport.Reloader.reload(Reloader.scala:496)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:147)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:308)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:225)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1307)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022-07-19 21:10:19 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:10:19 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:12:15 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:12:15 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:12:33 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:12:33 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:16:35 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:16:35 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:17:16 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:17:16 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:18:07 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7oboomg8g - Internal server error, for (POST) [/] ->
+ 
+play.api.PlayException: Execution exception[[EntityStreamException: Entity stream truncation. The HTTP parser was receiving an entity when the underlying connection was closed unexpectedly.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$3(HttpErrorHandler.scala:388)
+	at scala.Option.getOrElse(Option.scala:201)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:388)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: akka.http.scaladsl.model.EntityStreamException: Entity stream truncation. The HTTP parser was receiving an entity when the underlying connection was closed unexpectedly.
+	at akka.http.impl.engine.parsing.HttpMessageParser$$anonfun$1.applyOrElse(HttpMessageParser.scala:351)
+	at akka.http.impl.engine.parsing.HttpMessageParser$$anonfun$1.applyOrElse(HttpMessageParser.scala:349)
+	at akka.stream.impl.fusing.Collect$$anon$6.$anonfun$wrappedPf$1(Ops.scala:246)
+	at akka.stream.impl.fusing.SupervisedGraphStageLogic.withSupervision(Ops.scala:205)
+	at akka.stream.impl.fusing.Collect$$anon$6.onPush(Ops.scala:248)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	... 4 common frames omitted
+2022-07-19 21:18:07 [1;31mERROR[0;39m [36mp.api.http.DefaultHttpErrorHandler[0;39m [35m[0;39m 
+
+! @7oboomg8g - Internal server error, for (POST) [/] ->
+ 
+play.api.PlayException: Execution exception[[EntityStreamException: Entity stream truncation. The HTTP parser was receiving an entity when the underlying connection was closed unexpectedly.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$3(HttpErrorHandler.scala:388)
+	at scala.Option.getOrElse(Option.scala:201)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:388)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:436)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:428)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:94)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: akka.http.scaladsl.model.EntityStreamException: Entity stream truncation. The HTTP parser was receiving an entity when the underlying connection was closed unexpectedly.
+	at akka.http.impl.engine.parsing.HttpMessageParser$$anonfun$1.applyOrElse(HttpMessageParser.scala:351)
+	at akka.http.impl.engine.parsing.HttpMessageParser$$anonfun$1.applyOrElse(HttpMessageParser.scala:349)
+	at akka.stream.impl.fusing.Collect$$anon$6.$anonfun$wrappedPf$1(Ops.scala:246)
+	at akka.stream.impl.fusing.SupervisedGraphStageLogic.withSupervision(Ops.scala:205)
+	at akka.stream.impl.fusing.Collect$$anon$6.onPush(Ops.scala:248)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	... 4 common frames omitted
+2022-07-19 21:18:08 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:18:08 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:18:46 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:18:46 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:19:02 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:19:02 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:21:54 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:21:54 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:22:20 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:22:20 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:23:53 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:23:53 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:24:13 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2022-07-19 21:24:13 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2022-07-19 21:34:08 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Stopping Akka HTTP server...
+2022-07-19 21:34:08 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2022-07-19 21:34:08 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Running provided shutdown stop hooks

@@ -1,0 +1,43 @@
+@()(implicit request: RequestHeader)
+
+@main("Welcome to Play") {
+@helper.form(action = routes.HomeController.upload, Symbol("id")->"fileform", Symbol("enctype") -> "multipart/form-data") {
+@helper.CSRF.formField
+<div class="h-100 p-5 bg-light border rounded-3">
+  <div class="mb-3">
+    <label for="formFile" class="form-label">Select CSV file to process</label>
+    <input class="form-control" name="csv" type="file" id="formFile">
+  </div>
+  <input class="col-1 btn btn-primary" id="submit" type="button" onclick="submitForm()" value="Upload" />
+</div>
+}
+
+<div id="dynamic-section"></div>
+
+<script>
+  function submitForm() {
+    var formElement = document.getElementById("fileform");
+    var formData = new FormData(formElement);
+
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function (e) {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var context = JSON.parse(xmlhttp.responseText);
+        var rows = "";
+        context.forEach(e => {
+          rows += `<tr><td>${e.id}</td><td>${e.rate}</td><td>${e.country}</td><td>${e.weight}</td>`
+        });
+        document.getElementById("dynamic-section").innerHTML = `<h2 class='text-center mt-2'>Best rates</h2>
+        <table class='table table-bordered table-striped'>
+          <tr><th>Carrier ID</th><th>Rate</th><th>Country</th><th>Weight</th>
+          ${rows}
+        </table>`;
+
+      }
+    };
+    xmlhttp.open("POST", "/", true);
+    xmlhttp.send(formData);
+  }
+</script>
+
+}
